@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the blog of Nicholas Ceglia.
+This is blog is a repository of awesome thoughts by Nick Ceglia.
