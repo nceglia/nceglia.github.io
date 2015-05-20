@@ -12,3 +12,13 @@ def hello_world():
     print "Hello World!"
 {% endhighlight %}
 
+  {% if author %}
+      <span>
+          <!-- Mugshot. -->
+          <img src="{{ author.email | to_gravatar }}" alt="A photo of {{ author.name }}" />
+
+          <!-- Personal Info. -->
+          Written by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+      </span>
+  {% endif %}
+
