@@ -1,11 +1,12 @@
 # Site settings
-title: Nick Ceglia's blog
+title: Nick Ceglia
 email: nickceglia@gmail.com
-description: > #This is Nick Ceglia's blog.
+description: > # Personal website of Nick Ceglia - Software Engineer, Researcher, and Open Source Contributor
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://nceglia.github.io" # the base hostname & protocol for your site
 twitter_username: nceglia
-github_username:  nceglia
+github_username: nceglia
+linkedin_username: nceglia
 
 # Build settings
 markdown: kramdown

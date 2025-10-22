@@ -1,23 +1,704 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Ceglia - ML Research Scientist</title>
+    <style>
+        :root {
+            --primary: #66d9ef;
+            --primary-dark: #5ac8de;
+            --secondary: #f8f8f2;
+            --bg: #272822;
+            --bg-card: #3e3d32;
+            --text: #f8f8f2;
+            --text-muted: #75715e;
+            --accent: #a6e22e;
+            --border: #49483e;
+            --pink: #f92672;
+            --orange: #fd971f;
+            --yellow: #e6db74;
+            --purple: #ae81ff;
+        }
 
-<div class="home">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  <h1 class="page-heading">Posts</h1>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        /* Header/Hero */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, var(--primary) 0%, transparent 70%);
+            opacity: 0.05;
+            animation: pulse 8s ease-in-out infinite;
+        }
 
-</div>
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: #000000;
+        }
+
+        .hero .subtitle {
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+        }
+
+        .hero .tagline {
+            font-size: 1.25rem;
+            color: var(--text);
+            max-width: 800px;
+            margin-bottom: 3rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .social-links a {
+            color: var(--text);
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .social-links a:hover {
+            border-color: var(--primary);
+            background: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 5rem 0;
+        }
+
+        .section-header {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-header::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent), transparent);
+        }
+
+        /* Research Areas */
+        .research-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .research-card {
+            background: var(--bg-card);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .research-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+            box-shadow: 0 10px 30px rgba(166, 226, 46, 0.3);
+        }
+
+        .research-card h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        /* Projects */
+        .project-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            transition: all 0.3s;
+        }
+
+        .project-card:hover {
+            border-color: var(--accent);
+            box-shadow: 0 10px 30px rgba(166, 226, 46, 0.3);
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1.5rem;
+        }
+
+        .project-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+        }
+
+        .project-status {
+            padding: 0.25rem 0.75rem;
+            background: var(--pink);
+            color: white;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+
+        .project-meta {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-description {
+            color: var(--text);
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tech-tag {
+            background: rgba(166, 226, 46, 0.15);
+            color: var(--accent);
+            padding: 0.4rem 0.9rem;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border: 1px solid var(--accent);
+        }
+
+        .project-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .project-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .project-link:hover {
+            color: var(--accent);
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--border);
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-bottom: 3rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2.5rem;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--primary);
+            border: 3px solid var(--bg);
+            box-shadow: 0 0 0 2px var(--border);
+        }
+
+        .timeline-date {
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-org {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+
+        .timeline-content {
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        /* Publications */
+        .publication {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .publication-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.75rem;
+        }
+
+        .publication-authors {
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .publication-venue {
+            color: var(--orange);
+            font-weight: 600;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--bg-card);
+            padding: 3rem 0;
+            text-align: center;
+            border-top: 1px solid var(--border);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.2rem;
+            }
+
+            .social-links {
+                flex-direction: column;
+            }
+
+            .project-header {
+                flex-direction: column;
+            }
+        }
+
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Nicholas Ceglia</h1>
+                <p class="subtitle">Principal Computational Biologist | Machine Learning Research Scientist</p>
+                <p class="tagline">
+                    Building novel ML architectures for representation learning, graph neural networks, 
+                    and probabilistic inference. Bridging theoretical advances with production-ready implementations.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/nceglia" target="_blank">GitHub</a>
+                    <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a>
+                    <a href="mailto:nickceglia@gmail.com">Email</a>
+                    <a href="#projects">Projects ↓</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Areas -->
+    <section id="research">
+        <div class="container">
+            <h2 class="section-header">Core Research Areas</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <h3>Representation Learning</h3>
+                    <p>Skip-gram embeddings, mutual information-based objectives, and vector space models adapted from NLP to biological data</p>
+                </div>
+                <div class="research-card">
+                    <h3>Graph Neural Networks</h3>
+                    <p>Custom message passing layers, attention mechanisms, and geometric deep learning for spatial data</p>
+                </div>
+                <div class="research-card">
+                    <h3>Variational Inference</h3>
+                    <p>VAEs, VampPrior, ZINB decoders, and mixture-of-Dirichlet hierarchies for complex distributions</p>
+                </div>
+                <div class="research-card">
+                    <h3>Hierarchical Bayesian Models</h3>
+                    <p>Structured variational inference with hierarchical priors for sharing information across groups</p>
+                </div>
+                <div class="research-card">
+                    <h3>Information Theory</h3>
+                    <p>Mutual information, entropy metrics, and KL divergence for interpretable model analysis</p>
+                </div>
+                <div class="research-card">
+                    <h3>Model Interpretability</h3>
+                    <p>Latent space analysis, explainability methods, and probabilistic inference for understanding predictions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-header">Featured Projects</h2>
+
+            <!-- TCRi -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <h3 class="project-title">TCRi</h3>
+                        <p class="project-meta">Information-Theoretic Framework for T-Cell Analysis</p>
+                    </div>
+                    <span class="project-status">Nature Genetics (under review)</span>
+                </div>
+                <p class="project-description">
+                    Built a hierarchical Bayesian framework with VampPrior VAE to infer joint clonotype-phenotype distributions 
+                    in single-cell T-cell data. The model combines variational inference with mixture-of-Dirichlet priors to learn 
+                    interpretable latent representations. Information-theoretic metrics (mutual information, entropy) derived from 
+                    learned distributions predict immunotherapy response across multiple cancer types.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">PyTorch</span>
+                    <span class="tech-tag">Pyro</span>
+                    <span class="tech-tag">Variational Inference</span>
+                    <span class="tech-tag">Hierarchical Models</span>
+                    <span class="tech-tag">Information Theory</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/nceglia/tcri" target="_blank">
+                        GitHub →
+                    </a>
+                    <a href="https://pypi.org/project/tcri/" target="_blank">
+                        PyPI Package →
+                    </a>
+                    <a href="https://www.biorxiv.org/content/10.1101/2022.10.01.510457v1" target="_blank">
+                        Preprint →
+                    </a>
+                </div>
+            </div>
+
+            <!-- GeneVector -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <h3 class="project-title">GeneVector</h3>
+                        <p class="project-meta">Dense Vector Representations via Mutual Information</p>
+                    </div>
+                    <span class="project-status">Nature Communications 2023</span>
+                </div>
+                <p class="project-description">
+                    Developed an information-theoretic embedding framework that adapts skip-gram objectives to gene co-expression structure. 
+                    The model computes mutual information between gene expression patterns to create interpretable vector representations, 
+                    enabling compositional reasoning through latent space arithmetic. Framework scales to 250K+ cells while maintaining 
+                    interpretability and has been used across multiple published studies.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">PyTorch</span>
+                    <span class="tech-tag">Skip-gram</span>
+                    <span class="tech-tag">Mutual Information</span>
+                    <span class="tech-tag">Representation Learning</span>
+                    <span class="tech-tag">Vector Space Models</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/nceglia/genevector" target="_blank">
+                        GitHub →
+                    </a>
+                    <a href="https://pypi.org/project/genevector/" target="_blank">
+                        PyPI Package →
+                    </a>
+                    <a href="https://www.nature.com/articles/s41467-023-39985-2" target="_blank">
+                        Publication →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Grafiti -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <h3 class="project-title">Grafiti</h3>
+                        <p class="project-meta">Graph Attention for Spatial Representation Learning</p>
+                    </div>
+                    <span class="project-status">In Preparation</span>
+                </div>
+                <p class="project-description">
+                    Designed a multi-task graph attention framework with dual decoders for joint spatial graph and gene expression 
+                    reconstruction. Implemented orthogonal subspace separation to decouple spatial context from cell identity features. 
+                    Tensorized DEC clustering head with low-rank affinity coupling produces interpretable joint distributions for 
+                    information-theoretic motif discovery. System uses GradNorm for automatic task balancing and supports multi-GPU training.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">PyTorch</span>
+                    <span class="tech-tag">PyTorch Geometric</span>
+                    <span class="tech-tag">Graph Attention</span>
+                    <span class="tech-tag">Multi-task Learning</span>
+                    <span class="tech-tag">Clustering</span>
+                </div>
+                <div class="project-links">
+                    <a href="mailto:nickceglia@gmail.com">
+                        Contact for Code →
+                    </a>
+                </div>
+            </div>
+
+            <!-- scrna-pipeline -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <h3 class="project-title">scrna-pipeline</h3>
+                        <p class="project-meta">Production Single-Cell RNA-seq Analysis Pipeline</p>
+                    </div>
+                    <span class="project-status">Production</span>
+                </div>
+                <p class="project-description">
+                    Built a scalable single-cell RNA-seq analysis pipeline using Martian workflow orchestration. Containerized workflows 
+                    support quality control, normalization, batch correction, clustering, and differential expression analysis. Deployed 
+                    through institutional data warehousing platform, enabling standardized processing across large multi-patient datasets 
+                    (100K+ cells). Supports multiple job schedulers (LSF, Slurm, SGE).
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Nextflow</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">Singularity</span>
+                    <span class="tech-tag">HPC</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/nceglia/scrna-pipeline" target="_blank">
+                        GitHub →
+                    </a>
+                </div>
+            </div>
+
+            <!-- CircadiOmics -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <h3 class="project-title">CircadiOmics</h3>
+                        <p class="project-meta">Circadian Omic Web Portal</p>
+                    </div>
+                    <span class="project-status">Nucleic Acids Research 2018</span>
+                </div>
+                <p class="project-description">
+                    Developed a comprehensive web platform integrating 227 circadian omic datasets across eight species. 
+                    Implemented graph-based data models linking oscillatory patterns across transcriptomic, metabolomic, and 
+                    proteomic datasets. Supports interactive visualizations, comparative analyses, and link prediction to 
+                    identify potential circadian regulators. Applied Gaussian process models for oscillation pattern inference.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Django</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">Gaussian Processes</span>
+                    <span class="tech-tag">Graph Models</span>
+                </div>
+                <div class="project-links">
+                    <a href="http://circadiomics.ics.uci.edu" target="_blank">
+                        Live Site →
+                    </a>
+                    <a href="https://academic.oup.com/nar/article/46/D1/D542/4566019" target="_blank">
+                        Publication →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Publications -->
+    <section id="publications">
+        <div class="container">
+            <h2 class="section-header">Selected Publications</h2>
+            
+            <div class="publication">
+                <div class="publication-title">
+                    TCRi: Information-theoretic metrics for single-cell RNA and TCR sequencing in cancer
+                </div>
+                <div class="publication-authors">
+                    Ceglia, N. et al.
+                </div>
+                <div class="publication-venue">Nature Genetics, under review</div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-title">
+                    Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector
+                </div>
+                <div class="publication-authors">
+                    Ceglia, N., Sethna, Z., Freeman, S.S. et al.
+                </div>
+                <div class="publication-venue">Nature Communications, 2023</div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-title">
+                    RNA neoantigen vaccines prime long-lived CD8+ T cells in pancreatic cancer
+                </div>
+                <div class="publication-authors">
+                    Sethna, Z., Guasp, P., Ceglia, N. et al.
+                </div>
+                <div class="publication-venue">Nature, 2025</div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-title">
+                    Ovarian cancer mutational processes drive site-specific immune evasion
+                </div>
+                <div class="publication-authors">
+                    Vázquez-García, I., Uhlitz, F., Ceglia, N. et al.
+                </div>
+                <div class="publication-venue">Nature, 2022</div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-title">
+                    CircadiOmics: circadian omic web portal
+                </div>
+                <div class="publication-authors">
+                    Ceglia, N. et al.
+                </div>
+                <div class="publication-venue">Nucleic Acids Research, 2018</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-header">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 – Present</div>
+                    <div class="timeline-title">Principal Computational Biologist</div>
+                    <div class="timeline-org">Memorial Sloan Kettering Cancer Center</div>
+                    <div class="timeline-content">
+                        Leading machine learning research initiatives and supervising a team of PhD scientists. 
+                        Developed TCRi and Grafiti frameworks, advisor on MSK-SCOPE foundation model.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 – 2023</div>
+                    <div class="timeline-title">Senior Computational Biologist II</div>
+                    <div class="timeline-org">Memorial Sloan Kettering Cancer Center</div>
+                    <div class="timeline-content">
+                        Developed and published GeneVector framework. Established institutional TCR analysis methods 
+                        supporting immunotherapy research programs.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 – 2020</div>
+                    <div class="timeline-title">Bioinformatics Software Engineer III</div>
+                    <div class="timeline-org">Memorial Sloan Kettering Cancer Center</div>
+                    <div class="timeline-content">
+                        Built scalable single-cell RNA-seq analysis pipeline for large multi-patient datasets. 
+                        Developed GPU-accelerated containerized workflows.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2013 – 2018</div>
+                    <div class="timeline-title">Graduate Research Assistant</div>
+                    <div class="timeline-org">University of California, Irvine (Advisor: Pierre Baldi)</div>
+                    <div class="timeline-content">
+                        Developed CircadiOmics platform and applied machine learning to circadian genomics. 
+                        Implemented GPU-accelerated RNN architectures for protein structure prediction.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Nicholas Ceglia. All opinions expressed are my own.</p>
+            <p style="margin-top: 1rem; color: var(--text-muted);">
+                Built with HTML & CSS • Hosted on GitHub Pages
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

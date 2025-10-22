@@ -1,0 +1,36 @@
+I"j<h2 id="featured-projects">Featured Projects</h2>
+
+<h3 id="project-name-1">[Project Name 1]</h3>
+<p><strong>Technologies</strong>: Python, Django, PostgreSQL<br />
+<strong>Description</strong>: Brief description of your project, what it does, and what problems it solves.<br />
+<strong>Links</strong>: <a href="https://github.com/nceglia/project1">GitHub</a> | <a href="https://project1.example.com">Live Demo</a></p>
+
+<h3 id="project-name-2">[Project Name 2]</h3>
+<p><strong>Technologies</strong>: Rust, WebAssembly, React<br />
+<strong>Description</strong>: Another project showcasing your Rust expertise and modern web technologies.<br />
+<strong>Links</strong>: <a href="https://github.com/nceglia/project2">GitHub</a> | <a href="https://docs.project2.com">Documentation</a></p>
+
+<h3 id="project-name-3">[Project Name 3]</h3>
+<p><strong>Technologies</strong>: Python, Machine Learning, Docker<br />
+<strong>Description</strong>: Research-focused project demonstrating your analytical and problem-solving skills.<br />
+<strong>Links</strong>: <a href="https://github.com/nceglia/project3">GitHub</a> | <a href="https://arxiv.org/...">Paper</a></p>
+
+<h2 id="open-source-contributions">Open Source Contributions</h2>
+
+<h3 id="major-contributions">Major Contributions</h3>
+<ul>
+  <li><strong>[Popular Library Name]</strong>: Description of your contribution and impact</li>
+  <li><strong>[Another Project]</strong>: What you added or improved</li>
+  <li><strong>[Community Project]</strong>: Your role and contributions</li>
+</ul>
+
+<h3 id="personal-libraries--tools">Personal Libraries &amp; Tools</h3>
+<ul>
+  <li><strong>[Your Library Name]</strong>: Brief description and link to repository</li>
+  <li><strong>[Another Tool]</strong>: What it does and why it’s useful</li>
+</ul>
+
+<hr />
+
+<p><em>Want to collaborate on a project? <a href="mailto:nickceglia@gmail.com">Get in touch!</a></em></p>
+:ET
