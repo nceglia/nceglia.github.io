@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <rect x="100" y="248" width="56" height="10" rx="5" fill="#a6e22e"/>
+  <rect x="162" y="248" width="56" height="10" rx="5" fill="#66d9ef"/>
+  <rect x="224" y="248" width="56" height="10" rx="5" fill="#fd971f"/>
+  <rect x="286" y="248" width="56" height="10" rx="5" fill="#ae81ff"/>
+  <text x="100" y="212" font-family="Helvetica, Arial, sans-serif" font-size="80" font-weight="bold" fill="#000000" letter-spacing="-2">Nicholas Ceglia, PhD</text>
+  <text x="100" y="320" font-family="Helvetica, Arial, sans-serif" font-size="33" fill="#6b7280">Principal Computational Biologist · ML Research Scientist</text>
+  <text x="100" y="374" font-family="Helvetica, Arial, sans-serif" font-size="27" fill="#9aa0aa">Representation learning · graph neural networks · probabilistic inference</text>
+  <text x="100" y="556" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#111111">nceglia.github.io</text>
+</svg>

@@ -4,7 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications — Nicholas Ceglia, PhD</title>
+    <meta name="description" content="Selected peer-reviewed publications in computational biology and machine learning, with live Google Scholar citation metrics.">
     <link rel="stylesheet" href="/css/site.css">
+
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/assets/favicon.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Nicholas Ceglia, PhD">
+    <meta property="og:title" content="Publications — Nicholas Ceglia, PhD">
+    <meta property="og:description" content="Selected peer-reviewed publications in computational biology and machine learning, with live Google Scholar citation metrics.">
+    <meta property="og:url" content="https://nceglia.github.io/publications/">
+    <meta property="og:image" content="https://nceglia.github.io/assets/og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@nceglia">
+    <meta name="twitter:title" content="Publications — Nicholas Ceglia, PhD">
+    <meta name="twitter:description" content="Selected peer-reviewed publications in computational biology and machine learning, with live Google Scholar citation metrics.">
+    <meta name="twitter:image" content="https://nceglia.github.io/assets/og.png">
 </head>
 <body class="accent-orange">
     <!-- Navigation -->
@@ -27,7 +47,14 @@
                 A selection of peer-reviewed work in computational biology and machine learning.
             </p>
 
-            <div class="publication">
+            <div class="stats-bar">
+                <div class="stat"><div class="num" data-stat="scholar.citations">—</div><div class="label">Citations</div></div>
+                <div class="stat"><div class="num" data-stat="scholar.h_index">—</div><div class="label">h-index</div></div>
+                <div class="stat"><div class="num" data-stat="scholar.i10_index">—</div><div class="label">i10-index</div></div>
+            </div>
+            <p class="stats-note">Source: <a href="https://scholar.google.com/citations?user=2GJlykYAAAAJ" target="_blank" rel="noopener">Google Scholar</a> · updated <span data-stat="updated">—</span></p>
+
+            <div class="publication" data-paper="tcri">
                 <div class="publication-title">
                     TCRi: Information-theoretic metrics for single-cell RNA and TCR sequencing in cancer
                 </div>
@@ -37,7 +64,7 @@
                 <div class="publication-venue">Nature Genetics, under review</div>
             </div>
 
-            <div class="publication">
+            <div class="publication" data-paper="genevector">
                 <div class="publication-title">
                     Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector
                 </div>
@@ -47,7 +74,7 @@
                 <div class="publication-venue">Nature Communications, 2023</div>
             </div>
 
-            <div class="publication">
+            <div class="publication" data-paper="neoantigen-prime">
                 <div class="publication-title">
                     RNA neoantigen vaccines prime long-lived CD8+ T cells in pancreatic cancer
                 </div>
@@ -57,7 +84,7 @@
                 <div class="publication-venue">Nature, 2025</div>
             </div>
 
-            <div class="publication">
+            <div class="publication" data-paper="ovarian-evasion">
                 <div class="publication-title">
                     Ovarian cancer mutational processes drive site-specific immune evasion
                 </div>
@@ -67,7 +94,7 @@
                 <div class="publication-venue">Nature, 2022</div>
             </div>
 
-            <div class="publication">
+            <div class="publication" data-paper="circadiomics">
                 <div class="publication-title">
                     CircadiOmics: circadian omic web portal
                 </div>
@@ -91,5 +118,7 @@
             <p>&copy; 2025 Nicholas Ceglia. All opinions expressed are my own.</p>
         </div>
     </footer>
+
+    <script src="/assets/stats.js" defer></script>
 </body>
 </html>

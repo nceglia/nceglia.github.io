@@ -1,0 +1,41 @@
+name: Update stats
+
+# Refreshes assets/stats.json (citations, stars, downloads) on a schedule.
+# Runs can also be triggered manually from the Actions tab.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # every Monday at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Refresh stats.json
+        run: python3 scripts/update_stats.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- assets/stats.json; then
+            echo "No changes to stats.json"
+          else
+            git add assets/stats.json
+            git commit -m "chore: refresh stats [skip ci]"
+            git push
+          fi

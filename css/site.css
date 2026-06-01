@@ -320,6 +320,15 @@ body {
     margin-bottom: 0.35rem;
 }
 
+/* Wordmark logo used in place of the text title for some projects */
+.project-logo {
+    height: 38px;
+    width: auto;
+    max-width: 260px;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
 .project-status {
     padding: 0.3rem 0.8rem;
     background: var(--blue-tint);
@@ -549,4 +558,91 @@ footer {
     .project-header {
         flex-direction: column;
     }
+}
+
+/* ==========================================================================
+   Live stats — citation bar, per-paper counts, project badges
+   (populated by assets/stats.js from assets/stats.json)
+   ========================================================================== */
+
+.stats-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0 0 0.85rem;
+}
+
+.stat {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.6rem;
+    min-width: 132px;
+}
+
+.stat .num {
+    font-size: 1.85rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--heading);
+    line-height: 1.1;
+}
+
+.stat .label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    margin-top: 0.3rem;
+}
+
+.stats-note {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin: 0 0 3rem;
+}
+
+.stats-note a {
+    color: var(--orange-ink);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.stats-note a:hover { text-decoration: underline; }
+
+/* Per-paper "Cited by N" on the publications page */
+.pub-cites {
+    display: inline-block;
+    margin-top: 0.6rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--orange-ink);
+    text-decoration: none;
+}
+
+a.pub-cites:hover { text-decoration: underline; }
+
+/* GitHub / PyPI badges on project cards */
+.project-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.6rem;
+}
+
+.badge {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #444;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.2rem 0.65rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.badge:hover {
+    border-color: var(--border-strong);
+    color: var(--heading);
 }
