@@ -329,6 +329,10 @@ body {
     margin-bottom: 0.5rem;
 }
 
+/* Square badge logos (e.g. TCRi) and wide logos with a tagline (e.g. CircadiOmics) */
+.project-logo--badge { height: 54px; max-width: none; }
+.project-logo--wide  { height: 50px; max-width: 360px; }
+
 .project-status {
     padding: 0.3rem 0.8rem;
     background: var(--blue-tint);
