@@ -2,15 +2,15 @@
   "updated": "2026-06-01",
   "scholar": {
     "id": "2GJlykYAAAAJ",
-    "citations": 6108,
+    "citations": 6124,
     "h_index": 25,
     "i10_index": 29
   },
   "papers": {
     "tcri": 2,
     "genevector": 6,
-    "neoantigen-prime": 271,
-    "ovarian-evasion": 338,
+    "neoantigen-prime": 272,
+    "ovarian-evasion": 340,
     "circadiomics": 56
   },
   "github": {

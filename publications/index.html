@@ -42,9 +42,9 @@
 
     <main class="page">
         <div class="container">
-            <h1 class="section-header">Selected Publications</h1>
+            <h1 class="section-header">Publications</h1>
             <p class="page-intro">
-                A selection of peer-reviewed work in computational biology and machine learning.
+                My full publication list, synced automatically from Google Scholar.
             </p>
 
             <div class="stats-bar">
@@ -54,6 +54,9 @@
             </div>
             <p class="stats-note">Source: <a href="https://scholar.google.com/citations?user=2GJlykYAAAAJ" target="_blank" rel="noopener">Google Scholar</a> · updated <span data-stat="updated">—</span></p>
 
+            <div class="pub-controls" id="pub-controls"></div>
+
+            <div id="pub-list">
             <div class="publication" data-paper="tcri">
                 <div class="publication-title">
                     TCRi: Information-theoretic metrics for single-cell RNA and TCR sequencing in cancer
@@ -103,6 +106,7 @@
                 </div>
                 <div class="publication-venue">Nucleic Acids Research, 2018</div>
             </div>
+            </div>
         </div>
     </main>
 
@@ -120,5 +124,6 @@
     </footer>
 
     <script src="/assets/stats.js" defer></script>
+    <script src="/assets/publications.js" defer></script>
 </body>
 </html>

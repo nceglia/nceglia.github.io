@@ -1,0 +1,534 @@
+{
+  "updated": "2026-06-01",
+  "count": 66,
+  "papers": [
+    {
+      "title": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer",
+      "authors": "LA Rojas, Z Sethna, KC Soares, C Olcese, N Pang, E Patterson, J Lihm, ...",
+      "venue": "Nature 618 (7963), 144-150, 2023",
+      "year": 2023,
+      "citations": 1503,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:hC7cP41nSMkC"
+    },
+    {
+      "title": "Reprogramming of the circadian clock by nutritional challenge",
+      "authors": "KL Eckel-Mahan, VR Patel, S De Mateo, R Orozco-Solis, NJ Ceglia, ...",
+      "venue": "Cell 155 (7), 1464-1478, 2013",
+      "year": 2013,
+      "citations": 847,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:eQOLeE2rZwMC"
+    },
+    {
+      "title": "Atlas of circadian metabolism reveals system-wide coordination and communication between clocks",
+      "authors": "KA Dyar, D Lutter, A Artati, NJ Ceglia, Y Liu, D Armenta, M Jastroch, ...",
+      "venue": "Cell 174 (6), 1571-1585. e11, 2018",
+      "year": 2018,
+      "citations": 409,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:9yKSN-GCB0IC"
+    },
+    {
+      "title": "Probabilistic cell-type assignment of single-cell RNA-seq for tumor microenvironment profiling",
+      "authors": "AW Zhang, C O’Flanagan, EA Chavez, JLP Lim, N Ceglia, A McPherson, ...",
+      "venue": "Nature methods 16 (10), 1007-1015, 2019",
+      "year": 2019,
+      "citations": 404,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:roLk4NBRz8UC"
+    },
+    {
+      "title": "Ovarian cancer mutational processes drive site-specific immune evasion",
+      "authors": "I Vázquez-García, F Uhlitz, N Ceglia, JLP Lim, M Wu, N Mohibullah, ...",
+      "venue": "Nature 612 (7941), 778-786, 2022",
+      "year": 2022,
+      "citations": 340,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:ZeXyd9-uunAC"
+    },
+    {
+      "title": "Partitioning circadian transcription by SIRT6 leads to segregated control of cellular metabolism",
+      "authors": "S Masri, P Rigor, M Cervantes, N Ceglia, C Sebastian, C Xiao, ...",
+      "venue": "Cell 158 (3), 659-672, 2014",
+      "year": 2014,
+      "citations": 329,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:YsMSGLbcyi4C"
+    },
+    {
+      "title": "Dissociation of solid tumor tissues with cold active protease for single-cell RNA-seq minimizes conserved collagenase-associated stress responses",
+      "authors": "CH O’Flanagan, KR Campbell, AW Zhang, F Kabeer, JLP Lim, J Biele, ...",
+      "venue": "Genome biology 20 (1), 210, 2019",
+      "year": 2019,
+      "citations": 302,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:Se3iqnhoufwC"
+    },
+    {
+      "title": "RNA neoantigen vaccines prime long-lived CD8+ T cells in pancreatic cancer",
+      "authors": "Z Sethna, P Guasp, C Reiche, M Milighetti, N Ceglia, E Patterson, J Lihm, ...",
+      "venue": "Nature 639 (8056), 1042-1051, 2025",
+      "year": 2025,
+      "citations": 272,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:iH-uZ7U-co4C"
+    },
+    {
+      "title": "Tim-4+ cavity-resident macrophages impair anti-tumor CD8+ T cell immunity",
+      "authors": "A Chow, S Schad, MD Green, MD Hellmann, V Allaj, N Ceglia, G Zago, ...",
+      "venue": "Cancer cell 39 (7), 973-988. e9, 2021",
+      "year": 2021,
+      "citations": 204,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:YOwf2qJgpHMC"
+    },
+    {
+      "title": "Clonal fitness inferred from time-series modelling of single-cell cancer genomes",
+      "authors": "S Salehi, F Kabeer, N Ceglia, M Andronescu, MJ Williams, KR Campbell, ...",
+      "venue": "Nature 595 (7868), 585-590, 2021",
+      "year": 2021,
+      "citations": 167,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:4TOpqqG69KYC"
+    },
+    {
+      "title": "Fasting imparts a switch to alternative daily pathways in liver and muscle",
+      "authors": "K Kinouchi, C Magnan, N Ceglia, Y Liu, M Cervantes, N Pastore, T Huynh, ...",
+      "venue": "Cell reports 25 (12), 3299-3314. e6, 2018",
+      "year": 2018,
+      "citations": 151,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:LkGwnXOMwfcC"
+    },
+    {
+      "title": "Single-cell genomic variation induced by mutational processes in cancer",
+      "authors": "T Funnell, CH O’Flanagan, MJ Williams, A McPherson, S McKinney, ...",
+      "venue": "Nature 612 (7938), 106-115, 2022",
+      "year": 2022,
+      "citations": 148,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:dhFuZR0502QC"
+    },
+    {
+      "title": "What time is it? Deep learning approaches for circadian rhythms",
+      "authors": "F Agostinelli, N Ceglia, B Shahbaba, P Sassone-Corsi, P Baldi",
+      "venue": "Bioinformatics 32 (12), i8-i17, 2016",
+      "year": 2016,
+      "citations": 139,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:Tyk-4Ss8FVUC"
+    },
+    {
+      "title": "S-adenosyl-l-homocysteine hydrolase links methionine metabolism to the circadian clock and chromatin remodeling",
+      "authors": "CM Greco, M Cervantes, JM Fustin, K Ito, N Ceglia, M Samad, J Shi, ...",
+      "venue": "Science advances 6 (51), eabc5629, 2020",
+      "year": 2020,
+      "citations": 98,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:3fE2CSJIrl8C"
+    },
+    {
+      "title": "The circadian dynamics of the hippocampal transcriptome and proteome is altered in experimental temporal lobe epilepsy",
+      "authors": "KJ Debski, N Ceglia, A Ghestem, AI Ivanov, GE Brancati, S Bröer, AM Bot, ...",
+      "venue": "Science advances 6 (41), eaat5979, 2020",
+      "year": 2020,
+      "citations": 94,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:hqOjcs7Dif8C"
+    },
+    {
+      "title": "Comparative circadian metabolomics reveal differential effects of nutritional challenge in the serum and liver",
+      "authors": "S Abbondante, KL Eckel-Mahan, NJ Ceglia, P Baldi, P Sassone-Corsi",
+      "venue": "Journal of Biological Chemistry 291 (6), 2812-2828, 2016",
+      "year": 2016,
+      "citations": 86,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:zYLM7Y9cAGgC"
+    },
+    {
+      "title": "Circadian control of fatty acid elongation by SIRT1 protein-mediated deacetylation of acetyl-coenzyme A synthetase 1",
+      "authors": "S Sahar, S Masubuchi, K Eckel-Mahan, S Vollmer, L Galla, N Ceglia, ...",
+      "venue": "Journal of Biological Chemistry 289 (9), 6091-6097, 2014",
+      "year": 2014,
+      "citations": 82,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:u-x6o8ySG0sC"
+    },
+    {
+      "title": "SIRT6 suppresses cancer stem-like capacity in tumors with PI3K activation independently of its deacetylase activity",
+      "authors": "RM Ioris, M Galie, G Ramadori, JG Anderson, A Charollais, ...",
+      "venue": "Cell reports 18 (8), 1858-1868, 2017",
+      "year": 2017,
+      "citations": 64,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:Y0pCki6q_DkC"
+    },
+    {
+      "title": "Distinct metabolic adaptation of liver circadian pathways to acute and chronic patterns of alcohol intake",
+      "authors": "J Gaucher, K Kinouchi, N Ceglia, E Montellier, S Peleg, CM Greco, ...",
+      "venue": "Proceedings of the National Academy of Sciences 116 (50), 25250-25259, 2019",
+      "year": 2019,
+      "citations": 62,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:UebtZRa9Y70C"
+    },
+    {
+      "title": "Tumor-induced double positive T cells display distinct lineage commitment mechanisms and functions",
+      "authors": "SE Schad, A Chow, L Mangarin, H Pan, J Zhang, N Ceglia, JX Caushi, ...",
+      "venue": "Journal of Experimental Medicine 219 (6), e20212169, 2022",
+      "year": 2022,
+      "citations": 58,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:4DMP91E08xMC"
+    },
+    {
+      "title": "CircadiOmics: circadian omic web portal",
+      "authors": "N Ceglia, Y Liu, S Chen, F Agostinelli, K Eckel-Mahan, P Sassone-Corsi, ...",
+      "venue": "Nucleic acids research 46 (W1), W157-W162, 2018",
+      "year": 2018,
+      "citations": 56,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:W7OEmFMy1HYC"
+    },
+    {
+      "title": "Mir-132/212 is required for maturation of binocular matching of orientation preference and depth perception",
+      "authors": "R Mazziotti, L Baroncelli, N Ceglia, G Chelini, GD Sala, C Magnan, ...",
+      "venue": "Nature communications 8 (1), 15488, 2017",
+      "year": 2017,
+      "citations": 53,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:d1gkVwhDpl0C"
+    },
+    {
+      "title": "Ongoing genome doubling shapes evolvability and immunity in ovarian cancer",
+      "authors": "A McPherson, I Vázquez-García, MA Myers, DH Al-Rawi, M Zatzman, ...",
+      "venue": "Nature 644 (8078), 1078-1087, 2025",
+      "year": 2025,
+      "citations": 43,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:M3NEmzRMIkIC"
+    },
+    {
+      "title": "The pervasiveness and plasticity of circadian oscillations: the coupled circadian-oscillators framework",
+      "authors": "VR Patel, N Ceglia, M Zeller, K Eckel-Mahan, P Sassone-Corsi, P Baldi",
+      "venue": "Bioinformatics 31 (19), 3181-3188, 2015",
+      "year": 2015,
+      "citations": 42,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:WF5omc3nYNoC"
+    },
+    {
+      "title": "Determinants of survival with combined HER2 and PD-1 blockade in metastatic esophagogastric cancer",
+      "authors": "SB Maron, W Chatila, H Walch, JF Chou, N Ceglia, R Ptashkin, RKG Do, ...",
+      "venue": "Clinical Cancer Research 29 (18), 3633-3640, 2023",
+      "year": 2023,
+      "citations": 34,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:HDshCWvjkbEC"
+    },
+    {
+      "title": "Genome architecture mediates transcriptional control of human myogenic reprogramming",
+      "authors": "S Liu, H Chen, S Ronquist, L Seaman, N Ceglia, W Meixner, PY Chen, ...",
+      "venue": "Iscience 6, 232-246, 2018",
+      "year": 2018,
+      "citations": 23,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:2osOgNQ5qMEC"
+    },
+    {
+      "title": "FOXA2 promotes metastatic competence in small cell lung cancer",
+      "authors": "K Kawasaki, S Salehi, YA Zhan, K Chen, JH Lee, E Salataj, H Zhong, ...",
+      "venue": "Nature communications 16 (1), 4865, 2025",
+      "year": 2025,
+      "citations": 12,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:k_IJM867U9cC"
+    },
+    {
+      "title": "Accurate determination of CRISPR-mediated gene fitness in transplantable tumours",
+      "authors": "P Eirew, C O’Flanagan, J Ting, S Salehi, J Brimhall, B Wang, J Biele, ...",
+      "venue": "Nature Communications 13 (1), 4534, 2022",
+      "year": 2022,
+      "citations": 11,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:9ZlFYXVOiuMC"
+    },
+    {
+      "title": "Immune profiling after allogeneic hematopoietic cell transplantation in pediatric acute myeloid leukemia",
+      "authors": "S Shahid, N Ceglia, JB Le Luduec, A McPherson, B Spitzer, ...",
+      "venue": "Blood Advances 7 (17), 5069-5081, 2023",
+      "year": 2023,
+      "citations": 10,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:-f6ydRqryjwC"
+    },
+    {
+      "title": "Ongoing genome doubling promotes evolvability and immune dysregulation in ovarian cancer",
+      "authors": "A McPherson, I Vázquez-García, MA Myers, M Zatzman, D Al-Rawi, ...",
+      "venue": "bioRxiv, 2024.07. 11.602772, 2024",
+      "year": 2024,
+      "citations": 9,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:4JMBOYKVnBMC"
+    },
+    {
+      "title": "Immune and malignant cell phenotypes of ovarian cancer are determined by distinct mutational processes",
+      "authors": "I Vázquez-García, F Uhlitz, N Ceglia, JLP Lim, M Wu, N Mohibullah, ...",
+      "venue": "bioRxiv, 2021.08. 24.454519, 2021",
+      "year": 2021,
+      "citations": 8,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:M3ejUd6NZC8C"
+    },
+    {
+      "title": "Abstract PR-06: Personalized RNA neoantigen vaccines induce long-lived CD8+ T effector cells in pancreatic cancer",
+      "authors": "P Guasp, Z Sethna, C Reiche, M Milighetti, N Ceglia, E Patterson, N Pang, ...",
+      "venue": "Cancer Immunology Research 12 (10_Supplement), PR-06-PR-06, 2024",
+      "year": 2024,
+      "citations": 7,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:j3f4tGmQtD8C"
+    },
+    {
+      "title": "Evolutionary tracking of cancer haplotypes at single-cell resolution",
+      "authors": "MJ Williams, T Funnell, CH O’Flanagan, A McPherson, S Salehi, ...",
+      "venue": "Biorxiv, 2021.06. 04.447031, 2021",
+      "year": 2021,
+      "citations": 7,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:ULOm3_A8WrAC"
+    },
+    {
+      "title": "The impact of mutational processes on structural genomic plasticity in cancer cells",
+      "authors": "T Funnell, CH O’Flanagan, MJ Williams, A McPherson, S McKinney, ...",
+      "venue": "Biorxiv, 2021.06. 03.446999, 2021",
+      "year": 2021,
+      "citations": 7,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:Zph67rFs4hoC"
+    },
+    {
+      "title": "Single cell fitness landscapes induced by genetic and pharmacologic perturbations in cancer",
+      "authors": "S Salehi, F Kabeer, N Ceglia, M Andronescu, M Williams, KR Campbell, ...",
+      "venue": "bioRxiv, 2020.05. 08.081349, 2020",
+      "year": 2020,
+      "citations": 7,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:0EnyYjriUFMC"
+    },
+    {
+      "title": "The circadian hippocampus and its reprogramming in epilepsy: impact for chronotherapeutics",
+      "authors": "KJ Debski, N Ceglia, A Ghestem, AI Ivanov, GE Brancati, S Bröer, AM Bot, ...",
+      "venue": "BioRxiv, 2017",
+      "year": 2017,
+      "citations": 7,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:IjCSPb-OGe4C"
+    },
+    {
+      "title": "Genome architecture leads a bifurcation in cell identity",
+      "authors": "S Liu, H Chen, S Ronquist, L Seaman, N Ceglia, LA Muir, W Meixner, ...",
+      "venue": "bioRxiv, 151555, 2017",
+      "year": 2017,
+      "citations": 7,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:qjMakFHDy7sC"
+    },
+    {
+      "title": "Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector",
+      "authors": "N Ceglia, Z Sethna, SS Freeman, F Uhlitz, V Bojilova, N Rusk, B Burman, ...",
+      "venue": "Nature Communications 14 (1), 4400, 2023",
+      "year": 2023,
+      "citations": 6,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:hFOr9nPyWt4C"
+    },
+    {
+      "title": "GeneVector: Identification of transcriptional programs using dense vector representations defined by mutual information",
+      "authors": "N Ceglia, Z Sethna, F Uhlitz, V Bojilova, N Rusk, B Burman, A Chow, ...",
+      "venue": "bioRxiv, 2022.04. 22.487554, 2022",
+      "year": 2022,
+      "citations": 6,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:aqlVkmm33-oC"
+    },
+    {
+      "title": "Feasibility and safety of neoadjuvant nivolumab and chemotherapy for resectable diffuse pleural mesotheliomas: Results of a prospective pilot study.",
+      "authors": "M Offin, Y Lavin, M Zatzman, JL Sauter, N Ceglia, WD Travis, RG Aly, ...",
+      "venue": "Journal of Clinical Oncology 42 (16_suppl), 8003-8003, 2024",
+      "year": 2024,
+      "citations": 4,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:RHpTSmoSYBkC"
+    },
+    {
+      "title": "Complementary modes of resistance to EGFR TKI in lung adenocarcinoma through MAPK activation and cellular plasticity",
+      "authors": "M Zatzman, A Quintanal-Villalonga, S Salehi, N Ceglia, JJK Lee, AN Pupo, ...",
+      "venue": "bioRxiv, 2025",
+      "year": 2025,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:isC4tDSrTZIC"
+    },
+    {
+      "title": "TCRi: Information theoretic metrics for single cell RNA and TCR sequencing in cancer",
+      "authors": "N Ceglia, ZM Sethna, Y Elhanati, B Burman, A Chow, D Zamarin, ...",
+      "venue": "bioRxiv, 2022.10. 01.510457, 2022",
+      "year": 2022,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:QIV2ME_5wuYC"
+    },
+    {
+      "title": "Cross-Talk between Leukemic Blasts and T Cells Drives Targetable T Cell Dysfunction in the AML Tumor Microenvironment",
+      "authors": "S DeWolf, N Ceglia, M Zatzman, B Gipson, Y Elhanati, Z Katsamakis, ...",
+      "venue": "Blood 144, 637, 2024",
+      "year": 2024,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:r0BpntZqJG4C"
+    },
+    {
+      "title": "Immune Escape after Allogeneic Hematopoietic Cell Transplantation in Pediatric Patients with Acute Myeloid Leukemia",
+      "authors": "S Shahid, N Ceglia, JB Le Luduec, A McPherson, B Spitzer, V Bojilova, ...",
+      "venue": "Blood, The Journal of the American Society of Hematology 140 (Supplement 1 …, 2022",
+      "year": 2022,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:7PzlFSSx8tAC"
+    },
+    {
+      "title": "IL10R Inhibition Induces Neutrophil Tumoricidal Activity",
+      "authors": "DN Khalil, R Gomez, A Regev, F Samaan, Y Marouf, S Budhu, ...",
+      "venue": "Cancer immunology research 14 (5), 733-750, 2026",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:NMxIlDl6LWMC"
+    },
+    {
+      "title": "Multimodal profiling of STIC lesions identifies precursor states with genomic features of high grade serous ovarian cancer.",
+      "authors": "DH Al-Rawi, NN Al Deen, C Sotomayor-Vivas, K Thol, H Chui, A Filliol, ...",
+      "venue": "Cancer Research 86 (7_Supplement), 1207-1207, 2026",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:BqipwSGYUEgC"
+    },
+    {
+      "title": "Abstract PS1-11-08: Integrative modeling of multimodal real-world data for improved risk stratification of first-line CDK4/6 inhibitor outcomes in patients with estrogen …",
+      "authors": "F Sanchez-Vega, S Nandakumar, G Long, W Chatila, S Sreenivasan, ...",
+      "venue": "Clinical Cancer Research 32 (4_Supplement), PS1-11-08-PS1-11-08, 2026",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:YFjsv_pBGBYC"
+    },
+    {
+      "title": "TMIC-79. Choroid Plexus Inflammation Initiates Leptomeningeal Metastasis",
+      "authors": "AR Nobre, H Wang, L Doerries, J Remsik, R Estrera, I Osei-Gyening, ...",
+      "venue": "Neuro-Oncology 27 (Supplement_5), v463-v463, 2025",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:hMod-77fHWUC"
+    },
+    {
+      "title": "510 Dynamic tumor and immune response to neoadjuvant nivolumab with chemotherapy in diffuse pleural mesothelioma",
+      "authors": "L Yonit, M Zatzman, J Sauter, DNN Al, T Kerstin, NJ Ceglia, WD Travis, ...",
+      "venue": "Journal for Immunotherapy of Cancer 13 (Suppl 2), A579-A579, 2025",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:blknAaTinKkC"
+    },
+    {
+      "title": "Abstract B054: Identification of spatial motifs linked to tumor genotype using graph attention networks",
+      "authors": "N Ceglia, M Pourmaleki, A Grande, A Weiner, JM Llamosas, A McPherson, ...",
+      "venue": "Clinical Cancer Research 31 (13_Supplement), B054-B054, 2025",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:maZDTaKrznsC"
+    },
+    {
+      "title": "Disrupted priming within draining lymph nodes drives immune quiescence in gastric cancer",
+      "authors": "S Salehi, EE Stroobant, H Lees, YH Lin, S Shimada, M Abate, ...",
+      "venue": "bioRxiv, 2025",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:TFP_iSt0sucC"
+    },
+    {
+      "title": "Single cell profiling of diffuse pleural mesothelioma reveals tumor cell plasticity and dynamic immune responses when exposed to platinum, pemetrexed and nivolumab",
+      "authors": "M Offin, M Zatzman, Y Lavin, JL Sauter, NN Al Deen, N Ceglia, WD Travis, ...",
+      "venue": "Cancer Research 85 (8_Supplement_1), 5817-5817, 2025",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:bEWYMUwI8FkC"
+    },
+    {
+      "title": "Abstract LB400: Evolution of anti-viral and anti-tumor immunity in tumors in response to oncolytic virus therapy",
+      "authors": "O Lyudovyk, B Burman, N Ceglia, B Greenbaum, Y Elhanati, D Zamarin",
+      "venue": "Cancer Research 84 (7_Supplement), LB400-LB400, 2024",
+      "year": 2024,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:_Qo2XoVZTnwC"
+    },
+    {
+      "title": "Genomically encoded lineage plasticity drives resistance to EGFR targeted therapy in lung adenocarcinoma",
+      "authors": "M Zatzman, A Quintanal-Villalonga, S Salehi, C Falcon, N Ceglia, ...",
+      "venue": "Cancer Research 84 (6_Supplement), 1226-1226, 2024",
+      "year": 2024,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:e5wmG9Sq2KIC"
+    },
+    {
+      "title": "Abstract PR012: Evolutionary dynamics of whole-genome doubling in ovarian cancer",
+      "authors": "I Vázquez-García, M Myers, MJ Williams, SS Freeman, J Li, H Shi, ...",
+      "venue": "Cancer Research 84 (3_Supplement_2), PR012-PR012, 2024",
+      "year": 2024,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:R3hNpaxXUhUC"
+    },
+    {
+      "title": "789 Immune checkpoint blockade augments cyclophosphamide induced anti-tumor immunity by expanding effector CD8+ T cell clones in a preclinical melanoma model",
+      "authors": "MM George, L Hamadene, NJ Ceglia, Y Marouf, D Hirschhorn, ...",
+      "venue": "Journal for ImmunoTherapy of Cancer 11 (Suppl 1), 2023",
+      "year": 2023,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:TQgYirikUcIC"
+    },
+    {
+      "title": "Graph representation learning of tumor topology from spatial imaging data",
+      "authors": "N Ceglia, SS Freeman, M Pourmaleki, A McPherson, SP Shah",
+      "venue": "Cancer Research 83 (7_Supplement), 5353-5353, 2023",
+      "year": 2023,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:qUcmZB5y_30C"
+    },
+    {
+      "title": "Signatures of Immune Evasion in Pediatric Acute Myeloid Leukemia after Allogeneic Hematopoietic Cell Transplantation",
+      "authors": "S Shahid, N Ceglia, JB Le Luduec, A McPherson, B Spitzer, V Bojilova, ...",
+      "venue": "2023 Tandem Meetings| Transplantation & Cellular Therapy Meetings of ASTCT …, 2023",
+      "year": 2023,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:IWHjjKOFINEC"
+    },
+    {
+      "title": "EP299/# 232 Genomic instability as a determinant of immune escape in ovarian cancer",
+      "authors": "I Vazquez-Garcia, F Uhlitz, N Ceglia, J Lim, M Wu, N Mohibullah, ...",
+      "venue": "International Journal of Gynecological Cancer 32 (Suppl 3), A174-A174, 2022",
+      "year": 2022,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:L8Ckcad2t8MC"
+    },
+    {
+      "title": "Defining the balance of anti-viral and anti-tumor T cell responses to oncolytic virus therapy using single cell approaches",
+      "authors": "B Burman, N Ceglia, D Hirschhorn, S Budhu, L Mangarin, A Oseledchyk, ...",
+      "venue": "Cancer Research 82 (12_Supplement), 5217-5217, 2022",
+      "year": 2022,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:Wp0gIr-vW9MC"
+    },
+    {
+      "title": "524 Tim-4+ resident macrophages impair anti-tumor immunity in the serous body cavities By sequestering viable and cytotoxic CD8+ T cells expressing high levels of …",
+      "authors": "A Chow, S Schad, M Green, M Hellmann, N Ceglia, V Allaj, G Zago, ...",
+      "venue": "Journal for ImmunoTherapy of Cancer 8 (Suppl 3), 2020",
+      "year": 2020,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:_kc_bZDykSQC"
+    },
+    {
+      "title": "Vector Representation of Gene Co-expression in Single Cell RNA-Seq",
+      "authors": "N Ceglia, F Uhlitz, A McPherson",
+      "venue": "",
+      "year": 2020,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:MXK_kJrjxJIC"
+    },
+    {
+      "title": "Bioinformatic Analysis of Circadian Reprogramming Events",
+      "authors": "NJ Ceglia",
+      "venue": "UC Irvine, 2018",
+      "year": 2018,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:_FxGoFyzp5QC"
+    },
+    {
+      "title": "Bioinformatic Software Library for Circadian Analysis",
+      "authors": "NJ Ceglia",
+      "venue": "UC Irvine, 2018",
+      "year": 2018,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:ufrVoPGSRksC"
+    },
+    {
+      "title": "Circadian Regulation of Acetyl-CoA Synthetase",
+      "authors": "S Sahar, S Masubuchi, K Eckel-Mahan, S Vollmer, L Galla, N Ceglia, ...",
+      "venue": "",
+      "year": 2014,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:UeHWp8X0CEIC"
+    },
+    {
+      "title": "What is the composition of chromatin and how is it assembled?",
+      "authors": "CM Greco, M Cervantes, JM Fustin, K Ito, N Ceglia, M Samad, J Shi, ...",
+      "venue": "",
+      "year": null,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2GJlykYAAAAJ&amp;pagesize=100&amp;citation_for_view=2GJlykYAAAAJ:kNdYIx-mwKoC"
+    }
+  ]
+}

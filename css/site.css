@@ -650,3 +650,54 @@ a.pub-cites:hover { text-decoration: underline; }
     border-color: var(--border-strong);
     color: var(--heading);
 }
+
+/* ==========================================================================
+   Publications list (auto-populated from publications.json)
+   ========================================================================== */
+
+a.publication-title {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.publication-title:hover {
+    text-decoration: underline;
+}
+
+.pub-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 0 0 1.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.pub-count {
+    font-weight: 600;
+    color: var(--heading);
+}
+
+.pub-sort button {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    border-radius: 999px;
+    padding: 0.25rem 0.75rem;
+    margin-left: 0.35rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.pub-sort button:hover {
+    color: var(--heading);
+}
+
+.pub-sort button.active {
+    color: var(--orange-ink);
+    border-color: var(--orange);
+}
