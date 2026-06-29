@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22",
+  "updated": "2026-06-29",
   "scholar": {
     "id": "2GJlykYAAAAJ",
     "citations": 6209,
@@ -18,6 +18,6 @@
     "nceglia/genevector": 37
   },
   "pypi": {
-    "genevector": 939
+    "genevector": 511
   }
 }
