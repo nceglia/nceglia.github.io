@@ -1,16 +1,16 @@
 {
-  "updated": "2026-07-06",
+  "updated": "2026-07-13",
   "scholar": {
     "id": "2GJlykYAAAAJ",
-    "citations": 6209,
-    "h_index": 25,
+    "citations": 6301,
+    "h_index": 26,
     "i10_index": 30
   },
   "papers": {
     "tcri": 2,
-    "genevector": 6,
-    "neoantigen-prime": 288,
-    "ovarian-evasion": 348,
+    "genevector": 7,
+    "neoantigen-prime": 299,
+    "ovarian-evasion": 357,
     "circadiomics": 57
   },
   "github": {
