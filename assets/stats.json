@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-24",
+  "updated": "2026-08-31",
   "scholar": {
     "id": "2GJlykYAAAAJ",
-    "citations": 6394,
+    "citations": 6571,
     "h_index": 26,
     "i10_index": 30
   },
   "papers": {
     "tcri": 2,
     "genevector": 6,
-    "neoantigen-prime": 317,
-    "ovarian-evasion": 361,
+    "neoantigen-prime": 350,
+    "ovarian-evasion": 378,
     "circadiomics": 55
   },
   "github": {
@@ -18,6 +18,6 @@
     "nceglia/genevector": 36
   },
   "pypi": {
-    "genevector": 17
+    "genevector": 14
   }
 }
