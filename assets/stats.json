@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "scholar": {
     "id": "2GJlykYAAAAJ",
     "citations": 6848,
@@ -14,10 +14,10 @@
     "circadiomics": 57
   },
   "github": {
-    "nceglia/tcri": 11,
+    "nceglia/tcri": 15,
     "nceglia/genevector": 38
   },
   "pypi": {
-    "genevector": 38
+    "genevector": 57
   }
 }
